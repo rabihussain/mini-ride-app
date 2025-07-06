@@ -51,8 +51,8 @@ This is a role-based ride booking simulation built with Next.js. Users can log i
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/mini-ride-booking.git
-cd mini-ride-booking
+git clone https://github.com/rabihussain/mini-ride-app.git
+cd mini-ride-app
 ```
 ### 2. Install Dependencies
 ```bash
