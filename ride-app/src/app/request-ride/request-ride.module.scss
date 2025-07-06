@@ -1,0 +1,91 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f0f8f0 0%, #e8f2e8 50%, #d4e8d4 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #4a6b4d;
+    margin-bottom: 24px;
+  }
+  
+  .select,
+  .button {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-bottom: 16px;
+    border: 2px solid #f0f8f0;
+    background: #fafafa;
+    color: #456b48;
+    transition: all 0.3s ease;
+  }
+  
+  .select:focus {
+    outline: none;
+    border-color: #a2c9a5;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(162, 201, 165, 0.08);
+  }
+  
+  .button {
+    background: linear-gradient(135deg, #a2c9a5 0%, #8db490 100%);
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: 0 8px 16px rgba(162, 201, 165, 0.25);
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background: linear-gradient(135deg, #8db490 0%, #7a9b7d 100%);
+    transform: translateY(-2px);
+  }
+  .secondaryButton {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-top: -8px; 
+    background: transparent;
+    border: 2px solid #a2c9a5;
+    color: #4a6b4d;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .secondaryButton:hover {
+    background: #f0f8f0;
+    transform: translateY(-1px);
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      padding: 30px 20px;
+    }
+  
+    .select,
+    .button {
+      padding: 12px 14px;
+    }
+  }
+  

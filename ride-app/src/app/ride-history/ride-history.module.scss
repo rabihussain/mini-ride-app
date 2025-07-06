@@ -1,0 +1,80 @@
+.container {
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #f0f8f0 0%, #e8f2e8 50%, #d4e8d4 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: #4a6b4d;
+    margin-bottom: 20px;
+  }
+  
+  .empty {
+    color: #7a9b7d;
+    font-size: 16px;
+  }
+  
+  .rideList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .rideItem {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    font-size: 15px;
+    color: #456b48;
+  }
+  
+  .status {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: right;
+    font-size: 14px;
+    color: #4a6b4d;
+  }
+  
+  .requested {
+    color: #8db490;
+  }
+  
+  .accepted {
+    color: #4caf50;
+  }
+  
+  .rejected {
+    color: #f44336;
+  }
+  
+  .confirmed {
+    color: #2196f3;
+  }
+  
+  @media (max-width: 480px) {
+    .rideItem {
+      padding: 16px;
+    }
+  
+    .row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .status {
+      text-align: left;
+    }
+  }
+  

@@ -1,0 +1,104 @@
+.container {
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #f0f8f0 0%, #e8f2e8 50%, #d4e8d4 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: #4a6b4d;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  .rideList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .rideCard {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+    color: #456b48;
+  }
+  
+  .rideCard p {
+    margin: 8px 0;
+    font-size: 15px;
+  }
+  
+  .rideCard strong {
+    color: #4a6b4d;
+  }
+  
+  @media (max-width: 480px) {
+    .rideCard {
+      padding: 20px;
+    }
+  
+    .title {
+      font-size: 20px;
+    }
+  }
+  
+  .actions {
+    margin-top: 16px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+  
+  .acceptButton,
+  .rejectButton {
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  .acceptButton {
+    background: #a2c9a5;
+    color: white;
+  
+    &:hover {
+      background: #7fae84;
+    }
+  }
+  
+  .rejectButton {
+    background: #f8d7da;
+    color: #c0392b;
+  
+    &:hover {
+      background: #f1b0b7;
+    }
+  }
+  
+  .details {
+    margin-top: 10px;
+    background-color: #f0f8f0;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    color: #456b48;
+  
+    p {
+      margin: 4px 0;
+    }
+  
+    strong {
+      color: #4a6b4d;
+    }
+  }
+  
